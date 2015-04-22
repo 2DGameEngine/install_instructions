@@ -20,6 +20,7 @@ goto configuration properties->linker->input
     SDL2.lib
     SDL2main.lib
     SDL2_image.lib
+    SDL2_mixer.lib
 goto configuration properties->linker->system
   in subsytem field select Windows (/SUBSYSTEM:WINDOWS)
   
