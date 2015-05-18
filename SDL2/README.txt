@@ -1,42 +1,25 @@
 
-                         Simple DirectMedia Layer
+This library is a wrapper around the excellent FreeType 2.0 library,
+available at:
+	http://www.freetype.org/
 
-                                  (SDL)
+This library allows you to use TrueType fonts to render text in SDL
+applications.
 
-                                Version 2.0
+To make the library, first install the FreeType library, then type
+'./configure' then 'make' to build the SDL truetype library and the
+showfont and glfont example applications.
 
----
-http://www.libsdl.org/
+Be careful when including fonts with your application, as many of them
+are copyrighted.  The Microsoft fonts, for example, are not freely 
+redistributable and even the free "web" fonts they provide are only 
+redistributable in their special executable installer form (May 1998).
+There are plenty of freeware and shareware fonts available on the Internet
+though, and may suit your purposes.
 
-Simple DirectMedia Layer is a cross-platform development library designed
-to provide low level access to audio, keyboard, mouse, joystick, and graphics
-hardware via OpenGL and Direct3D. It is used by video playback software,
-emulators, and popular games including Valve's award winning catalog
-and many Humble Bundle games.
+This library is under the zlib license, see the file "COPYING.txt" for details.
 
-SDL officially supports Windows, Mac OS X, Linux, iOS, and Android.
-Support for other platforms may be found in the source code.
-
-SDL is written in C, works natively with C++, and there are bindings 
-available for several other languages, including C# and Python.
-
-This library is distributed under the zlib license, which can be found
-in the file "COPYING.txt".
-
-The best way to learn how to use SDL is to check out the header files in
-the "include" subdirectory and the programs in the "test" subdirectory.
-The header files and test programs are well commented and always up to date.
-More documentation and FAQs are available online at:
-	http://wiki.libsdl.org/
-
-If you need help with the library, or just want to discuss SDL related
-issues, you can join the developers mailing list:
-	http://www.libsdl.org/mailing-list.php
-
-If you want to report bugs or contribute patches, please submit them to
-bugzilla:
-    http://bugzilla.libsdl.org/
+Portions of this software are copyright © 2013 The FreeType Project (www.freetype.org).  All rights reserved.
 
 Enjoy!
-	Sam Lantinga				(slouken@libsdl.org)
-
+	-Sam Lantinga <slouken@libsdl.org>		(6/20/2001)
